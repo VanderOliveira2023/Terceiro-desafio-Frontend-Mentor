@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Comme:wght@300;400;500;800&family=Hanken+Grotesk:wght@800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@700&family=Outfit:wght@400;700&family=Playfair+Display&family=Poppins:wght@300;500&family=Red+Hat+Display:wght@400;700;900&family=Roboto:ital@1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    Font-size: 16px;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    margin-top: 150px;
+    width: 310px;
+    height: 470px;
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 15px 55px 0 hsla(235, 23%, 55%, 0.411);
+    border: none;
+    border-radius: 20px;
+}
+
+.image {
+    width: 310px;
+    border-radius: 20px 20px 0 0;
+}
+
+.container .resumo {
+    margin: 25px;
+    display: flexbox;
+    text-align: center;
+}
+
+.resumo h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: auto 0;
+}
+
+.resumo p {
+    color: hsl(224, 23%, 55%);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container .plano {
+    background-color: hsla(225, 100%, 94%, 0.425);
+    width: 250px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.plano h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 12px;
+    margin-left: -5px;
+
+}
+
+.plano p {
+    margin-left: -5px;
+    margin-top: 5px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.container .change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    font-size: 10px;
+    text-align: right;
+    margin-left: 55px;
+
+}
+
+.container .icon-music {
+    width: 35px;
+    margin-left: 15px;
+
+}
+
+.container .sub {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 10px;
+    margin: 20px;
+    box-shadow: 0 15px 45px 0 hsl(224, 23%, 55%, 0.8);
+    border: none;
+    cursor: pointer;
+}
+
+.container .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.attribution {
+    display: none;
+
+}
+
+@media (min-width:900px) and (max-width:1440px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        Font-size: 16px;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    .container {
+        margin-top: 4%;
+        width: 310px;
+        height: 470px;
+        background: hsl(225, 100%, 98%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 20px 20px 0 0;
+        box-shadow: 0 15px 55px 0 hsla(235, 23%, 55%, 0.411);
+        border: none;
+        border-radius: 20px;
+    }
+
+
+}
+
+@media (min-width:375px) and (max-width:667px) {
+    body {
+        background-image: url(/images/pattern-background-mobile.svg);
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .container {
+    margin:100px;
+        width: 380px;
+        height: 650px;
+        background: hsl(225, 100%, 98%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 20px 20px 0 0;
+        box-shadow: 0 15px 55px 0 hsla(235, 23%, 55%, 0.411);
+        border: none;
+        border-radius: 20px;
+    }
+
+    .image {
+        width: 380px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .container .resumo {
+        margin: 25px;
+        display: flexbox;
+        text-align: center;
+    }
+
+    .resumo h1 {
+        color: hsl(223, 47%, 23%);
+        font-weight: 900;
+        font-size: 27px;
+        margin:15px;
+    }
+
+    .resumo p {
+        color: hsl(224, 23%, 55%);
+        margin:10px;
+        text-align: center;
+        font-size:19px;
+        font-weight: 500;
+        line-height: 29px;
+
+    }
+
+    .container .plano {
+        background-color: hsla(225, 100%, 94%, 0.425);
+        width: 332px;
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        border-radius: 10px;
+        
+
+    }
+
+    .container .sub {
+        padding: 20px;
+
+    }
+
+    .container h2 {
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+    .container .sub p {
+        color: hsl(224, 23%, 55%);
+        margin-top: 4px;
+        font-size: 16px;
+        font-weight: 500;
+
+
+    }
+
+    .container .plano .change {
+        font-size: 15px;
+        margin-left: 52px;
+
+    }
+
+    .container .plano img {
+        width: 60px;
+
+
+    }
+    .container .Proceed .btn{
+        width: 332px;
+        height: 55px;
+        font-size: 18px;
+        border-radius: 14px;
+        margin-top: 25px;
+        font-weight: 700;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 10px 18px 0 hsla(235, 68%, 43%, 0.267);
+    }
+
+    .container .Proceed .footer{
+        font-weight: 900;
+        font-size: 1.1rem;
+        text-align: center;
+        margin: 8px;
+    }
+}
